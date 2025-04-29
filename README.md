@@ -1,37 +1,39 @@
-# cub3D 🕹️ | 42 Amman
+# 🎮 cub3D | 42 Amman
 
 ## 📖 Project Overview
 
-**cub3D** is a 42 school project aiming to recreate a simple 3D game engine using **raycasting** principles, similar to early 90s shooters like **Wolfenstein 3D**.  
-This project teaches fundamental graphics rendering, event handling, and 3D projection concepts, while adhering to strict C programming standards.
+**cub3D** is a 42 School project recreating a basic **3D game engine** using **raycasting** — the same technique behind early 90s shooters like **Wolfenstein 3D**.  
+This project introduces essential concepts in **graphics rendering**, **event-driven programming**, and **3D projection math**, all while following strict **C coding standards**.
 
-> 🎉 **Final Grade: 125/100 (with bonus)**
+> 🎉 **Final Grade: 125/100 (with bonus)**  
 
 ---
 
-## 🎯 Goals
+## 🎯 Project Objectives
 
-- Master window management, colors, textures, and event loops with **MiniLibX**.
-- Apply mathematical concepts like trigonometry for raycasting.
-- Strengthen C programming practices, memory management, and rigorous Norm compliance.
-- Parse and validate structured configuration files.
+- Master window and image management with **MiniLibX**.
+- Implement raycasting for pseudo-3D visualization.
+- Apply trigonometry and vector math for projections.
+- Handle textures, colors, and real-time rendering.
+- Parse and validate custom `.cub` configuration files.
+- Ensure clean memory management and Norm compliance.
 
 ---
 
 ## 🛠️ How to Run
 
-### 1️⃣ Clone the repository  
+### 📥 1. Clone the Repository  
 ```bash
 git clone https://github.com/sbibers/cub3d.git
 cd cub3d
 ```
 
-### 2️⃣ Build the project  
+### 🏗️ 2. Build the Project  
 ```bash
 make
 ```
 
-### 3️⃣ Run with a `.cub` map file  
+### 🎮 3. Launch the Game  
 ```bash
 ./cub3D maps/good/your_map.cub
 ```
@@ -40,22 +42,22 @@ make
 
 ## 📄 Map File Format
 
-A `.cub` file contains:
+A `.cub` map file contains:
 
-- Texture paths:
+- **Texture paths**
   ```
   NO ./textures/north_texture.png
   SO ./textures/south_texture.png
   ```
-- Floor & ceiling colors:
+- **Floor and Ceiling colors**
   ```
   F 220,100,0
   C 225,30,0
   ```
-- 2D map grid using:
-  - `1` → Wall
-  - `0` → Empty space
-  - `N`, `S`, `E`, `W` → Player's starting position & orientation
+- **2D Map Grid**
+  - `1` → Wall  
+  - `0` → Empty space  
+  - `N`, `S`, `E`, `W` → Player start position & orientation  
   - `D` → Door (Bonus)
 
 **Example**
@@ -68,23 +70,30 @@ A `.cub` file contains:
 
 ---
 
-## ✨ Controls
+## 🎮 Controls
 
-| Key      | Action               |
-|:---------|:--------------------|
-| `W` `A` `S` `D` | Move player |
-| `←` `→` | Rotate view |
-| `ESC`   | Exit game |
-| Close button | Exit cleanly |
+| Key          | Action                  |
+|:-------------|:------------------------|
+| `W` `A` `S` `D` | Move player             |
+| `←` `→`       | Rotate view              |
+| `ESC`         | Exit game                |
+| Close window  | Cleanly exit             |
 
 ---
 
-## 🎁 Bonus Features
+## 🚀 Features
 
-✅ Wall collisions  
-✅ Minimap system  
-✅ Animated textures  
-✅ Mouse look support  
+✅ Raycasting-based 3D rendering  
+✅ Realistic 3D maze visualization  
+✅ Smooth window management (resizing, minimizing)  
+✅ Textures changing based on wall orientation (North, South, East, West)  
+✅ Customizable floor and ceiling colors  
+✅ Player movement using `W`, `A`, `S`, `D` keys  
+✅ View rotation using `←` `→` arrow keys  
+✅ Interactive minimap overlay  
+✅ Doors that open and close (Bonus)  
+✅ Animated textures and sprites  
+✅ Mouse-based point of view rotation  
 
 ---
 
@@ -110,4 +119,13 @@ cub3D/
 ![creepy map](creepy_map.png)  
 ![library map](library_map.png)
 
+---
 
+## 📌 Author
+
+👤 [Salam Baybars](https://github.com/sbibers)  
+📍 42 Amman  
+
+---
+
+## ⭐️ If you like this project, leave a star ⭐️!

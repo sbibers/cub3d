@@ -92,7 +92,6 @@ A `.cub` map file contains:
 ✅ View rotation using `←` `→` arrow keys  
 ✅ Interactive minimap overlay  
 ✅ Doors that open and close (Bonus)  
-✅ Animated textures and sprites  
 ✅ Mouse-based point of view rotation  
 
 ---

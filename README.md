@@ -22,7 +22,7 @@ This project teaches fundamental graphics rendering, event handling, and 3D proj
 
 ### 1️⃣ Clone the repository  
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/sbibers/cub3d.git
 cd cub3d
 ```
 

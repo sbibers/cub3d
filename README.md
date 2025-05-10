@@ -1,3 +1,4 @@
+
 # 🎮 cub3D | 42 Amman
 
 ## 📖 Project Overview
@@ -28,12 +29,35 @@ git clone https://github.com/sbibers/cub3d.git
 cd cub3d
 ```
 
-### 🏗️ 2. Build the Project  
+### 📦 2. Install Dependencies  
+To run the project, make sure you have the necessary dependencies installed:
+
+- **CMake** (for building the project)
+  ```bash
+  sudo apt-get install cmake
+  ```
+- **MiniLibX** (for graphics rendering)
+  - Install required libraries:
+    ```bash
+    sudo apt-get install libx11-dev libxext-dev libmlx5-dev
+    ```
+- **GLFW** (for window management)
+  ```bash
+  sudo apt-get install libglfw3 libglfw3-dev
+  ```
+- **OpenGL** (for 3D rendering)
+  ```bash
+  sudo apt-get install libopengl-dev
+  ```
+
+> **Note:** Ensure you have all the necessary dependencies for your operating system. If you're using **macOS**, you can use **Homebrew** to install the necessary libraries.
+
+### 🏗️ 3. Build the Project  
 ```bash
 make
 ```
 
-### 🎮 3. Launch the Game  
+### 🎮 4. Launch the Game  
 ```bash
 ./cub3D maps/good/your_map.cub
 ```
